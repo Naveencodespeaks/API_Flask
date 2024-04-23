@@ -1,2 +1,4 @@
 libs/
 flaskenv/
+.idea/
+__pychache__
