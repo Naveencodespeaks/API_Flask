@@ -1,4 +1,1 @@
-libs/
-Flaskenv/
-.idea/
-__pychache__
+.conda
