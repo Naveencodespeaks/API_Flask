@@ -30,9 +30,11 @@ class printer(Device):
     def print(self, pages):
         if not self.connected:
             print("your printers is not connected:")
-            return
+            return 
         print(f"printing {pages} pages.")
         self.remaining_pages -= pages
+
+        
 
 
 printer = printer("printer", "usb", 500)
