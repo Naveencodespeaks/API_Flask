@@ -4,8 +4,6 @@ double = [num * 2 for num in numbers]
 print(double)
 
 
-
-
 import math  # Import the math module to access the sqrt function
 
 given_numbers = [2, 4, 5, 67, 54, 3]
