@@ -30,4 +30,5 @@ starts_s = [friend for friend in friends if friend.startswith('s')]
 
 print(friends[0] is starts_s)
 
-print("Friends", id(friends),"starts:", id(starts_s))
+print("Friends", id(friends),
+    "starts:", id(starts_s))
