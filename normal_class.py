@@ -15,10 +15,10 @@ class Car:
         self.make = make
         self.year = year
     def __str__(self):
-        return f"what is the name of the car? {self.name} and make of the car is {self.make}, and in whcih year car is manufactured {self.year}"
+        return f"what is the name of the car? {self.name} and make of the car is {self.make}, and in which year car is manufactured {self.year}"
     
 
-car_details = Car("ford","Enduover", 2024)
+car_details = Car("ford","Endeavour", 2024)
 
 print(car_details)
 
