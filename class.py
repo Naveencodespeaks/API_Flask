@@ -8,6 +8,12 @@ class Car:
 
 
 car_details = Car('ford',2024,'Endeavour','25kml','30lakhs' )
-print(car_details)
 
+
+if __name__ == "__main__":
+    print(car_details.name)
+    print(car_details.make)
+    print(car_details.model)
+    print(car_details.milage)
+    print(car_details.price)
 
