@@ -22,7 +22,7 @@ def mul(x,y):
 
 nums = (19,30)
 
-print("Here we are printing the following multipication and as the function")
+print("Here we are printing the following function and as the multipication")
 print(mul(*nums))
 
 
@@ -64,3 +64,4 @@ def both(*arg, **kwargs):
     print(kwargs)
 
 print(both(1,2,3,4, name = "bob", age = '20'))
+print(both(1,2,3,4,5,10,name = "kaka"))
